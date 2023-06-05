@@ -1,8 +1,11 @@
 # Newsfeed
 
 A Django-based web application that develops base functionality for a news platform. The app provides a streamlined interface for administrators to publish and manage articles and their associated thematic sections (scopes).  
+
 It has a built-in admin panel that allows for the creation of articles with a title, text, publication date, and an optional image. Each article can be associated with one or more thematic sections known as scopes. Every article must have one main scope, and the rest are optional. Each scope is presented as a tag alongside each article, enabling users to understand the thematic area of the article at a glance.
+
 From a user's perspective, the site lists all the articles with their tags. The main scope of an article is presented first, followed by the rest of the scopes, all in alphabetical order.  
+
 This project is a perfect starting point for any news-oriented web application and offers a high degree of flexibility to adapt to unique requirements.  
 
 ![Screenshot](./screenshot.png)
